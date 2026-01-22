@@ -1,0 +1,22 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.tree.indent": 15,
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
+    "python.defaultInterpreterPath": "/opt/anaconda3/envs/tf-env/bin/python",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#192030",
+        "statusBar.noFolderBackground": "#192030",
+        "statusBar.debuggingBackground": "#192030",
+        "statusBar.foreground": "#CCCCCC"
+    },
+    
+    
+    "terminal.external.osxExec": "iTerm.app"
+
+    
+}
+
