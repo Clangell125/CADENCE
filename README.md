@@ -59,10 +59,17 @@ The pipeline was validated against three major cancer-linked kinases: **ABL1**, 
 
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/your-username/CADENCE.git
+
+# 2. Enter the directory
 cd CADENCE
-pip install -r requirements.txt
-python run_pipeline.py --target "YOUR_AMINO_ACID_SEQUENCE"
+
+# 3. Install all dependencies
+pip install tensorflow rdkit-pypi pyqt6 PyTDC scikit-learn pandas numpy tqdm
+
+# 4. Launch the application
+python startup.py
 
 ```
 
