@@ -46,8 +46,8 @@ The pipeline was validated against three major cancer-linked kinases: **ABL1**, 
 
 | Target | Clinical Relevance | AI-Lead Performance |
 | --- | --- | --- |
-| **ABL1** | Chronic Myelogenous Leukemia (CML) | Predicted  |
-| **HER1** | Rapidly dividing lung cancer cells | Rediscovered **Lapatinib** structure |
+| **ABL1** | Chronic Myelogenous Leukemia (CML) | Competitive with current treatments  |
+| **HER1** | Rapidly dividing lung cancer cells | Competitive with current treatments + Rediscovered **Lapatinib** structure |
 | **ERBB2** | Breast and ovarian tumor overexpression | Competitive with current treatments |
 
 > **Note:** The model successfully "learned" binding specificity, demonstrated by the diverging predicted affinities between known strong binders (Gleevec) and negative controls (Aspirin) during training.
