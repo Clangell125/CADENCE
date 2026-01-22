@@ -66,6 +66,46 @@ python run_pipeline.py --target "YOUR_AMINO_ACID_SEQUENCE"
 
 ```
 
+
+## 🚀 Getting Started
+
+To use the CADENCE pipeline for your own target proteins, follow these steps:
+
+### 1. Prerequisites
+
+Ensure you have Python 3.9+ and the necessary bioinformatics libraries installed:
+
+```bash
+pip install tensorflow rdkit-pypi pyqt6 PyTDC scikit-learn pandas numpy tqdm
+
+```
+
+### 2. Running the Pipeline
+
+The entire stack is encapsulated in the `startup.py` script. This script handles the protein encoding, evolutionary molecular generation, and filtering.
+
+1. **Launch the script:**
+```bash
+python startup.py
+
+```
+
+
+2. **Input your Target:** When prompted, paste the **Kinase Amino Acid Sequence** (in FASTA/1D string format).
+3. **Monitor Progress:** The script will run through 15 generations of evolutionary refinement.
+4. **Review Leads:** The top 15 candidate molecules (in SMILES format) will be exported to a `.csv` file in the `/results` directory.
+
+---
+
+## 🔬 How it Works (Under the Hood)
+
+When you input a sequence into `startup.py`, the following workflow is triggered:
+
+1. **Protein Feature Extraction:** The sequence is processed through a multi-scale CNN to identify potential binding motifs.
+2. **Fragment-Based Assembly:** Using a library of over 300 bioactive fragments, the algorithm begins building molecules.
+3. **Survival of the Fittest:** Each generated molecule is scored against your protein sequence. Only molecules with the highest predicted binding affinity () and those passing **Lipinski’s Rule of Five** are kept for the next mutation cycle.
+
+
 ## 📝 Citation
 
 If you use this work, please cite the original study:
