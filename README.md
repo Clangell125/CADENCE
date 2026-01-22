@@ -69,7 +69,7 @@ cd CADENCE
 pip install tensorflow rdkit-pypi pyqt6 PyTDC scikit-learn pandas numpy tqdm
 
 # 4. Launch the application
-python startup.py
+python cadence_pro.py
 
 ```
 
@@ -89,11 +89,11 @@ pip install tensorflow rdkit-pypi pyqt6 PyTDC scikit-learn pandas numpy tqdm
 
 ### 2. Running the Pipeline
 
-The entire stack is encapsulated in the `startup.py` script. This script handles the protein encoding, evolutionary molecular generation, and filtering.
+The entire stack is encapsulated in the `cadence_pro.py` script. This script handles the protein encoding, evolutionary molecular generation, and filtering.
 
 1. **Launch the script:**
 ```bash
-python startup.py
+python cadence_pro.py
 
 ```
 
@@ -106,7 +106,7 @@ python startup.py
 
 ## 🔬 How it Works (Under the Hood)
 
-When you input a sequence into `startup.py`, the following workflow is triggered:
+When you input a sequence into `cadence_pro.py`, the following workflow is triggered:
 
 1. **Protein Feature Extraction:** The sequence is processed through a multi-scale CNN to identify potential binding motifs.
 2. **Fragment-Based Assembly:** Using a library of over 300 bioactive fragments, the algorithm begins building molecules.
