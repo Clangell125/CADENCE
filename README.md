@@ -33,10 +33,10 @@ A CNN-based model trained on approximately 30,000 kinase-ligand pairs from the [
 
 Candidates are automatically screened to meet drug-likeness criteria:
 
-* **Molecular Weight:**  Da
-* **LogP:** 
-* **H-Bond Donors:** 
-* **H-Bond Acceptors:** 
+* **Molecular Weight:** Da  
+* **LogP:** Lipophilicity
+* **H-Bond Donors** 
+* **H-Bond Acceptors** 
 
 ---
 
