@@ -60,7 +60,7 @@ The pipeline was validated against three major cancer-linked kinases: **ABL1**, 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/CADENCE.git
+git clone https://github.com/Clangell125/CADENCE.git
 
 # 2. Enter the directory
 cd CADENCE
